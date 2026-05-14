@@ -1,0 +1,287 @@
+/* ? =============== Globa Style ======== */
+span,
+a {
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.w-fit-content {
+  width: fit-content;
+}
+:root {
+  --main-color: #ff4922;
+}
+body {
+  font-family: ui-sans-serif, system-ui;
+  background-color: #fffcea;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(180,102,83)   ;
+}
+/*  ^============= NavBar =================== */
+.navbar {
+  background-color: #ffffff !important;
+  box-shadow: 1px 1px 10px 0px #0000003a;
+}
+
+nav .head span {
+  font-size: 14px;
+  color: rgb(94, 94, 94);
+}
+nav .brand .brand-icon {
+  width: 46px;
+  height: 46px;
+  background-color: var(--main-color);
+}
+nav img {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #d8a56d;
+  border-radius: 25px;
+}
+/*! =============== Meal Section ====================== */
+
+#mealContianer .row {
+  border-radius: 10px;
+  /* overflow: hidden; */
+  border: 2px solid #ff6a0025;
+  box-shadow: 0px 0px 50px 0px #d1d1d1;
+}
+.meal-section .meal-badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  padding: 8px 15px;
+}
+.meal-img {
+  height: 400px;
+
+}
+.meal-img img {
+  object-fit: cover;
+}
+.meal-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+.meal-info .meal-prep-time i {
+  color: var(--main-color);
+}
+.meal-info .meal-cook-time i {
+  color: #fb2c36;
+}
+.meal-info .meal-serving i {
+  color: #2b7fff;
+}
+.meal-section .meal-details-container {
+  height: 800px;
+  overflow: visible;
+  @media (min-width:992px)
+  {
+    overflow: auto;
+
+  }
+}
+.meal-details .badge {
+  padding: 6px 15px;
+  font-size: 12px;
+  color: green;
+  background-color: #dbfce7;
+  border-radius: 20px;
+}
+.meal-details .blue--badge {
+  color: #1447e6;
+  background-color: #dbeafe;
+}
+.meal-details .save-shar-icon span {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: #ffedd4;
+  border-radius: 10px;
+}
+.meal-details .save-shar-icon span:hover {
+  background-color: #ffd6a7;
+}
+.meal-details .save-shar-icon span i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: var(--main-color);
+}
+.warning-time {
+  padding-inline: 20px;
+  border-radius: 15px;
+
+  border-left: 5px solid #fb2c36;
+  background-color: #fef2f2;
+}
+.meal-details .warning-time {
+  color: #fb2c36;
+}
+.meal-details .warning-time p:first-child {
+  color: #a00914;
+}
+.instructions,.ingredients,.nutrition,.chef-tips{
+
+  max-height: 370px;
+  overflow: auto; 
+}
+.instructions{
+  padding-inline:10px;
+}
+.ingredients {
+  
+  background-color: #fff9ec;
+  
+}
+.ingredients li div {
+  width: fit-content;
+  padding: 0px 8px;
+  color: white;
+  border-radius: 20px;
+  background-color: #ff6900;
+}
+.ingredients li span,
+.instructions li span {
+  font-size: 17px;
+  color: rgb(74, 74, 74);
+}
+.instructions li div {
+  width: fit-content;
+  padding: 4px 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  background-color: #ff6900;
+}
+.chef-tips .meal-tip {
+  padding: 25px 15px;
+  border-left: 4px solid #ffb900;
+  border-radius: 20px;
+  background-color: #fffbeb;
+}
+.meal-tip i {
+  font-size: 20px;
+  color: var(--main-color);
+}
+.nutrition-card {
+  background-color: #f9fafb;
+}
+.nutrition-card span {
+  font-weight: 500;
+  color: rgb(95, 95, 95);
+}
+.nutrition-card .nutriton-icon {
+  padding: 8px 10px;
+  border-radius: 10px;
+  background-color: #ffedd4;
+}
+.carbohydrates--card .nutriton-icon {
+  background-color: #fef9c2;
+}
+.fiber--card .nutriton-icon {
+  background-color: #dbfce7;
+}
+.protein--card .nutriton-icon {
+  background-color: #dbeafe;
+}
+.protein--card .nutriton-icon {
+  background-color: #ffe2e2;
+}
+.sodium--card .nutriton-icon {
+  background-color: #fce7f3;
+}
+
+.nutriton-icon i {
+  color: var(--main-color);
+}
+.carbohydrates--card i {
+  color: #d08700;
+}
+.fiber--card i {
+  color: #00a63e;
+}
+.protein--card i {
+  color: #155dfc;
+}
+.fat--card i {
+  color: #e7000b;
+}
+.sodium--card i {
+  color: #e60076;
+}
+.nav-tabs .nav-link {
+  border: none;
+}
+.meal-details-container {
+  position: relative;
+    /* border-top:10px solid rgb(182, 0, 0); */
+
+}
+button#try-btn {
+  position: absolute;
+  left:40px;
+  bottom:0px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  background-image: linear-gradient(to right, #f44500df 10%, #e80008e0 90%);
+  transition: transform 0.3s;
+  /* margin-top: 25px; */
+}
+button#try-btn i {
+  font-size: 16px;
+}
+button#try-btn:hover {
+  background-image: linear-gradient(to right, #f44500 10%, #e80008 90%);
+  transform: scale(1.04);
+}
+.nav-link {
+  color:#6A7282;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link.active
+{
+   margin-bottom: 15px ;
+--bs-nav-tabs-link-active-color:var(--main-color);
+    
+border-bottom: 2px solid var(--main-color);
+
+}
+.nav-link:hover{
+  color:#364153;
+}
+.tab-content{
+  
+    /* border-bottom:1px solid rgba(128, 128, 128, 0.44); */
+
+}
+
+  ::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFDBD2;
+  border-radius: 100px;
+}
