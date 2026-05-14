@@ -3,7 +3,7 @@ var mealContianer = document.getElementById("mealContianer");
 var meals = [
   {
     name: "Spaghetti Bolognese",
-    imgUrl: "../images/meal-1.jpg",
+    imgUrl: "./images/meal-1.jpg",
     description: "Classic Italian meat sauce slow-cooked with rich tomatoes",
     category: "Italian",
     level: "Intermediate",
@@ -48,7 +48,7 @@ var meals = [
   },
   {
     name: "Chicken Tikka Masala",
-    imgUrl: "../images/meal-2.jpg",
+    imgUrl: "./images/meal-2.jpg",
     description: "Creamy tomato-based curry with tender grilled chicken",
     category: "Indian",
     level: "Intermediate",
@@ -93,7 +93,7 @@ var meals = [
   },
   {
     name: "Japanese Ramen",
-    imgUrl: "../images/meal-3.jpg",
+    imgUrl: "./images/meal-3.jpg",
     description: "Rich tonkotsu broth with noodles, soft egg, and pork belly",
     category: "Japanese",
     level: "Advanced",
@@ -138,7 +138,7 @@ var meals = [
   },
   {
     name: "Beef Tacos",
-    imgUrl: "../images/meal-4.jpg",
+    imgUrl: "./images/meal-4.jpg",
     description: "Spiced ground beef tacos with fresh salsa and guacamole",
     category: "Mexican",
     level: "Easy",
@@ -183,7 +183,7 @@ var meals = [
   },
   {
     name: "Margherita Pizza",
-    imgUrl: "../images/meal-5.jpg",
+    imgUrl: "./images/meal-5.jpg",
     description:
       "Classic Italian pizza with tomato sauce, mozzarella, and basil",
     category: "Italian",
@@ -229,7 +229,7 @@ var meals = [
   },
   {
     name: "Pad Thai",
-    imgUrl: "../images/meal-6.jpg",
+    imgUrl: "./images/meal-6.jpg",
     description: "Stir-fried rice noodles with shrimp, egg, and tamarind sauce",
     category: "Thai",
     level: "Intermediate",
@@ -274,7 +274,7 @@ var meals = [
   },
   {
     name: "Shakshuka",
-    imgUrl: "../images/meal-7.jpg",
+    imgUrl: "./images/meal-7.jpg",
     description: "Poached eggs in a spiced tomato and pepper sauce",
     category: "Middle Eastern",
     level: "Easy",
@@ -319,7 +319,7 @@ var meals = [
   },
   {
     name: "Beef Bulgogi",
-    imgUrl: "../images/meal-8.jpg",
+    imgUrl: "./images/meal-8.jpg",
     description: "Korean marinated beef grilled with sweet soy glaze",
     category: "Korean",
     level: "Easy",
@@ -364,7 +364,7 @@ var meals = [
   },
   {
     name: "French Onion Soup",
-    imgUrl: "../images/meal-9.jpg",
+    imgUrl: "./images/meal-9.jpg",
     description: "Slow-caramelized onion soup topped with gruyère crouton",
     category: "French",
     level: "Intermediate",
@@ -409,7 +409,7 @@ var meals = [
   },
   {
     name: "Butter Chicken",
-    imgUrl: "../images/meal-10.jpg",
+    imgUrl: "./images/meal-10.jpg",
     description: "Mild and creamy tomato-butter curry with tender chicken",
     category: "Indian",
     level: "Intermediate",
@@ -454,7 +454,7 @@ var meals = [
   },
   {
     name: "Spaghetti Carbonara",
-    imgUrl: "../images/meal-11.jpg",
+    imgUrl: "./images/meal-11.jpg",
     description:
       "Classic Roman pasta with crispy pancetta, egg yolk, and pecorino",
     category: "Italian",
@@ -886,4 +886,4 @@ function displayMeal(index) {
           </div>`;
   mealContianer.innerHTML = mealMarkup;
 }
-chooseRandomMeal()
+chooseRandomMeal();
