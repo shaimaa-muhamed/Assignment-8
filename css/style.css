@@ -20,9 +20,8 @@ body {
   background-color: #fffcea;
 }
 
-
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(180,102,83)   ;
+  background: rgb(180, 102, 83);
 }
 /*  ^============= NavBar =================== */
 .navbar {
@@ -48,8 +47,8 @@ nav img {
 /*! =============== Meal Section ====================== */
 
 #mealContianer .row {
-  border-radius: 10px;
-  /* overflow: hidden; */
+  border-radius: 30px;
+  overflow: hidden;
   border: 2px solid #ff6a0025;
   box-shadow: 0px 0px 50px 0px #d1d1d1;
 }
@@ -62,7 +61,6 @@ nav img {
 }
 .meal-img {
   height: 400px;
-
 }
 .meal-img img {
   object-fit: cover;
@@ -83,12 +81,10 @@ nav img {
   color: #2b7fff;
 }
 .meal-section .meal-details-container {
-  height: 800px;
+  height: 890px;
   overflow: visible;
-  @media (min-width:992px)
-  {
+  @media (min-width: 992px) {
     overflow: auto;
-
   }
 }
 .meal-details .badge {
@@ -133,18 +129,19 @@ nav img {
 .meal-details .warning-time p:first-child {
   color: #a00914;
 }
-.instructions,.ingredients,.nutrition,.chef-tips{
-
-  max-height: 370px;
-  overflow: auto; 
+.instructions,
+.ingredients,
+.nutrition,
+.chef-tips {
+  max-height: 390px;
+  overflow: auto;
+  margin-bottom: 20px;
 }
-.instructions{
-  padding-inline:10px;
+.instructions {
+  padding-inline: 10px;
 }
 .ingredients {
-  
   background-color: #fff9ec;
-  
 }
 .ingredients li div {
   width: fit-content;
@@ -228,13 +225,12 @@ nav img {
 }
 .meal-details-container {
   position: relative;
-    /* border-top:10px solid rgb(182, 0, 0); */
-
+  /* border-top:10px solid rgb(182, 0, 0); */
 }
 button#try-btn {
   position: absolute;
-  left:40px;
-  bottom:0px;
+  left: 40px;
+  bottom: 50px;
   padding: 15px 30px;
   border: none;
   font-size: 20px;
@@ -251,29 +247,25 @@ button#try-btn:hover {
   transform: scale(1.04);
 }
 .nav-link {
-  color:#6A7282;
+  color: #6a7282;
   font-size: 19px;
   font-weight: 500;
 }
 
-.nav-tabs .nav-link.active
-{
-   margin-bottom: 15px ;
---bs-nav-tabs-link-active-color:var(--main-color);
-    
-border-bottom: 2px solid var(--main-color);
+.nav-tabs .nav-link.active {
+  margin-bottom: 15px;
+  --bs-nav-tabs-link-active-color: var(--main-color);
 
+  border-bottom: 2px solid var(--main-color);
 }
-.nav-link:hover{
-  color:#364153;
+.nav-link:hover {
+  color: #364153;
 }
-.tab-content{
-  
-    /* border-bottom:1px solid rgba(128, 128, 128, 0.44); */
-
+.tab-content {
+  /* border-bottom:1px solid rgba(128, 128, 128, 0.44); */
 }
 
-  ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 7px;
 }
 
@@ -282,6 +274,6 @@ border-bottom: 2px solid var(--main-color);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FFDBD2;
+  background: #ffdbd2;
   border-radius: 100px;
 }
